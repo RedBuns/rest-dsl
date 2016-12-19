@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1482174573913
+Build-Jdk: 1.8.0_101
+Built-By: z001nlh
+Bundle-Description: Empty Camel Spring Example
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Empty Camel Spring Example [rest-dsl]
+Bundle-SymbolicName: rest-dsl
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.poc.domain;version="1.0.0.SNAPSHOT",com.poc.restdsl;
+ uses:="org.apache.camel,com.poc.domain,org.apache.camel.builder,org.res
+ tlet.data,org.apache.camel.model.rest,org.apache.camel.component.jackso
+ n,org.apache.camel.model";version="1.0.0.SNAPSHOT"
+Import-Package: org.apache.camel;version="[2.17,3)",org.apache.camel.bui
+ lder;version="[2.17,3)",org.apache.camel.component.jackson;version="[2.
+ 17,3)",org.apache.camel.model;version="[2.17,3)",org.apache.camel.model
+ .rest;version="[2.17,3)",org.restlet.data
+Tool: Bnd-1.50.0
