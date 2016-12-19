@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1482174573913
+Bnd-LastModified: 1482175851044
 Build-Jdk: 1.8.0_101
 Built-By: z001nlh
 Bundle-Description: Empty Camel Spring Example
@@ -9,12 +9,14 @@ Bundle-Name: Empty Camel Spring Example [rest-dsl]
 Bundle-SymbolicName: rest-dsl
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
-Export-Package: com.poc.domain;version="1.0.0.SNAPSHOT",com.poc.restdsl;
- uses:="org.apache.camel,com.poc.domain,org.apache.camel.builder,org.res
- tlet.data,org.apache.camel.model.rest,org.apache.camel.component.jackso
- n,org.apache.camel.model";version="1.0.0.SNAPSHOT"
-Import-Package: org.apache.camel;version="[2.17,3)",org.apache.camel.bui
- lder;version="[2.17,3)",org.apache.camel.component.jackson;version="[2.
- 17,3)",org.apache.camel.model;version="[2.17,3)",org.apache.camel.model
- .rest;version="[2.17,3)",org.restlet.data
+Export-Package: com.poc.domain;uses:="javax.xml.bind.annotation";version
+ ="1.0.0.SNAPSHOT",com.poc.processors;uses:="org.apache.camel,com.poc.do
+ main";version="1.0.0.SNAPSHOT",com.poc.restdsl;uses:="org.apache.camel.
+ builder,org.apache.camel,org.apache.camel.model.rest,com.fasterxml.jack
+ son.core,org.apache.camel.model,com.poc.domain,com.poc.processors";vers
+ ion="1.0.0.SNAPSHOT"
+Import-Package: com.fasterxml.jackson.core;version="[2.6,3)",javax.xml.b
+ ind.annotation,org.apache.camel;version="[2.17,3)",org.apache.camel.bui
+ lder;version="[2.17,3)",org.apache.camel.model;version="[2.17,3)",org.a
+ pache.camel.model.rest;version="[2.17,3)"
 Tool: Bnd-1.50.0

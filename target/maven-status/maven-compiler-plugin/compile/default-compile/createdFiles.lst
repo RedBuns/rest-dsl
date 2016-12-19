@@ -1,6 +1,6 @@
 com/poc/domain/Item.class
 com/poc/domain/StudentRecord.class
-com/poc/restdsl/RestDSL$1.class
 com/poc/restdsl/RestDSL.class
 com/poc/domain/Menu.class
 com/poc/domain/Iphone.class
+com/poc/processors/DataMapper.class

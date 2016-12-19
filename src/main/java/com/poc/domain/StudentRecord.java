@@ -2,8 +2,13 @@ package com.poc.domain;
 
 import java.io.Serializable;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+@XmlRootElement
 public class StudentRecord implements Serializable{
-    String name;
+	@XmlElement
+	String name;
+	@XmlElement
     int age;
 
     public int getAge() {
